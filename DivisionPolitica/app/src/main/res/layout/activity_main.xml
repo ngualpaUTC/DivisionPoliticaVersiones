@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.divisionpolitica.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Latacunga"
+            android:id="@+id/button"
+            android:onClick="Latacunga"/>
+
+        <Button
+            android:layout_width="108dp"
+            android:layout_height="wrap_content"
+            android:text="La Mana"
+            android:id="@+id/button2"
+            android:onClick="Lamana"/>
+
+        <Button
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:text="Pangua"
+            android:id="@+id/button3"
+            android:onClick="Pangua"/>
+
+        <Button
+            android:layout_width="104dp"
+            android:layout_height="wrap_content"
+            android:text="Pujili"
+            android:id="@+id/button4"
+            android:onClick="Pujili"/>
+
+        <Button
+            android:layout_width="104dp"
+            android:layout_height="wrap_content"
+            android:text="salcedo"
+            android:id="@+id/button5"
+            android:onClick="Salcedo"/>
+
+        <Button
+            android:layout_width="101dp"
+            android:layout_height="wrap_content"
+            android:text="saquisili"
+            android:id="@+id/button6"
+            android:onClick="Saquisili"/>
+
+        <Button
+            android:layout_width="101dp"
+            android:layout_height="wrap_content"
+            android:text="sigchos"
+            android:id="@+id/button7"
+            android:onClick="Sigchos"/>
+    </LinearLayout>
+</RelativeLayout>
